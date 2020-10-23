@@ -1,0 +1,83 @@
+.onebox.video-onebox {
+  width: max-content;
+  padding: 0 0 3em 0;
+  video {
+	width: max-content;
+	position: relative;
+	border-radius: 4px;
+  }
+}
+.video-container {
+  width: max-content;
+  padding: 0 0 3em 0;
+  video {
+	width: max-content;
+	position: relative;
+	border-radius: 4px;
+  }
+}
+.lazyYT-container {
+  background-color: transparent;
+  border-radius: 4px;
+}
+body.category-youtuber {
+  background: url(https://vaperinas3booster.b-cdn.net/original/2X/f/f77b4d1804f9402e0d4cd5c9a533e4842ae52965.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background: url(https://vaperinas3booster.b-cdn.net/original/2X/f/f77b4d1804f9402e0d4cd5c9a533e4842ae52965.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background-position: center center;
+  background-position: center center;
+  background-position: fixed;
+  background-position: fixed;
+  background-size: contain;
+  background-size: contain;
+}
+.category-youtuber {
+  .navigation-container {
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  .sidebar {
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  .main-link {
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  #main-outlet {
+	background-image: linear-gradient(0deg, rgba(var(--secondary-rgb), 0.15) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  #create-topic {
+	background: #FF0000;
+	&:hover {
+	  background: #CE0000;
+	}
+	.d-icon {
+	  display: none;
+	}
+	span {
+	  &:before {
+		font-family: "Font Awesome 5 Free";
+		content: "\f03d";
+		display: inline-block;
+		padding-right: 5px;
+		font-weight: 900;
+	  }
+	}
+  }
+}
+.category-list {
+  .category-icon {
+	color: var(--primary-high, $primary-high) !important;
+  }
+}
+.category-banner-youtuber {
+  .category-title {
+	&:before {
+	  font-family: "Font Awesome 5 Brands";
+	  content: "\f167";
+	  display: inline-block;
+	  padding-right: 5px;
+	  font-weight: normal;
+	}
+  }
+  .category-title-contents {
+	color: var(--secondary, $secondary);
+  }
+}
