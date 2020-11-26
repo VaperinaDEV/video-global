@@ -22,10 +22,17 @@
 body.category-youtuber {
   background: url(https://vapediy.b-cdn.net/vaperina/yotube-bg/youtubebg.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
   background-position: center center;
-  background-position: fixed;
   background-size: contain;
 }
-.category-youtuber {
+
+body.category-vaperina-live {
+  background: url(https://vapediy.b-cdn.net/vaperina/zoom/zoombg.png), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+  background-position: center center;
+  background-size: contain;
+}
+
+.category-youtuber,
+.category-vaperina-live {
   .navigation-container {
 	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
   }
@@ -62,16 +69,8 @@ body.category-youtuber {
 	color: var(--primary-high, $primary-high) !important;
   }
 }
-.category-banner-youtuber {
-  .category-title {
-	&:before {
-	  font-family: "Font Awesome 5 Brands";
-	  content: "\f167";
-	  display: inline-block;
-	  padding-right: 5px;
-	  font-weight: normal;
-	}
-  }
+.category-banner-youtuber,
+.category-banner-vaperina-live {
   .category-title-contents {
 	color: var(--secondary, $secondary);
   }
