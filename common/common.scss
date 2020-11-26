@@ -31,8 +31,7 @@ body.category-vaperina-live {
   background-size: contain;
 }
 
-.category-youtuber,
-.category-vaperina-live {
+.category-youtuber {
   .navigation-container {
 	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
   }
@@ -62,6 +61,20 @@ body.category-vaperina-live {
 		font-weight: 900;
 	  }
 	}
+  }
+}
+.category-vaperina-live {
+  .navigation-container {
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  .sidebar {
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  .main-link {
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.05) 100%), linear-gradient(0deg, rgba(var(--secondary-rgb), 0.8) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
+  }
+  #main-outlet {
+	background-image: linear-gradient(0deg, rgba(var(--secondary-rgb), 0.15) 100%, rgba(var(--secondary-rgb), 0.95) 100%) !important;
   }
 }
 .category-list {
